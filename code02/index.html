@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikcraft</title>
+</head>
+<body>
+    <h1>Bikcraft Bicicletas Personalizadas</h1>
+
+    <form action="enviar.php" method="post" name="form">
+
+    <div>
+        <label for="nome">Nome *</label>
+        <input id="nome" name="nome" type="text" required>
+    </div>
+
+    <div>
+        <label for="email">E-mail *</label>
+        <input id="email" name="email" type="text" required>
+    </div>
+
+    <div>
+        <label for="retro"><input id="retro" type="checkbox" value="retro">Retro</label>
+        <label for="Passeio"><input id="passeio" type="checkbox" value="passeio">Passeio</label>
+        <label for="esporte"><input id="esporte" type="checkbox" value="esporte">Esporte</label>
+    </div>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea id="menagem" name="mensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
